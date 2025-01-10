@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/* shared style */
+
+
+
+
+
+
+ /* nav style start here */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.text{
+    font-size: 32px;
+    font-weight: bold;
+    /* color:#0E0E0E ; */
+    
+}
+.nav-btn button{
+    padding: 10px 20px;
+    color: green;
+    border: 1px solid green;
+}
+
+/* nav style end here */
+
+/* banner section start here */
+.banner{
+    width: 80%;
+    height: 500px;
+    background-color: #C6E4D6;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+.hazy-title{
+    font-size: 24px;
+    color:#0e0e0e75 ;
+    margin-bottom: 15px;
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 25px;
+
+}
+.banner-btn{
+    padding: 10px 15px;
+    background-color:#006A50 ;
+    border-radius: 10px;
+    border: none;
+}
+.banner-img{
+    width: 470px;
+    margin-top: 40px;
+}
+
+
+/* banner section end here */
