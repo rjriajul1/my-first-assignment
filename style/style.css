@@ -62,8 +62,11 @@
     padding: 10px 20px;
     color: green;
     border: 1px solid green;
+    border-radius: 5px;
 }
-
+.nav-btn:hover{
+     background-color: blue;
+}
 
 /* nav style end here */
 
@@ -100,6 +103,10 @@
     border-radius: 10px;
     border: none;
     color: white;
+}
+.banner-btn:hover{
+    background-color: blue;
+
 }
 .banner-img{
     width: 470px;
@@ -186,7 +193,7 @@
     margin: 0 auto;
     border-radius: 10px;
     margin-top: 40px;
-   
+   border: 1px solid rgba(128, 128, 128, 0.322);
 
 }
 .challenges-text{
@@ -195,3 +202,77 @@
 }
 
 /* challenges section style end here */
+
+ /* opinion section start here  */
+ 
+/* .opinion{
+    width: 80%;
+    margin: 0 auto;
+}
+.table-container{
+    margin: 0 auto;
+}
+.section-title{
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+     width: 100%; 
+}
+table ,td,th,tr{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}  */
+
+/* opinion section end here */
+
+
+/* recent new style section start here */
+.recent{
+    width:80% ;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.recent-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f7f4f4;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+    gap: 20px;
+    /* height: 402px; */
+   
+}
+.content-title{
+    font-size: 32px ;
+    font-weight: bold;
+    color: #0e0e0ebb;
+}
+.recent-img img{
+    width: 408;
+    border-radius: 30px;
+   
+}
+.recent-content{
+    margin-left: 30px;
+}
+.content-title{
+    margin-bottom: 10px;
+}
+.publish{
+    font-size: 16px;
+    color: #0e0e0e94;
+    
+}
+.news-img{
+    margin-bottom: 10px;
+}
+.news-desc {
+    margin-top: 15px;
+    text-align: justify;
+}
+
+
+/* recent new style section end here */
