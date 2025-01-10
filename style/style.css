@@ -12,7 +12,7 @@
     width: 402px;
     border-radius: 15px;
     padding: 30px;
-    height: 300px;
+    /* height: 300px; */
 
 }
 .box-img{
@@ -22,7 +22,7 @@
 .box-title{
     font: 20px;
     font-weight: bold;
-    color: #0e0e0ec0;
+    color: #0e0e0eab;
     margin-bottom: 20px;
 
 }
@@ -31,7 +31,20 @@
     color: #0e0e0e75;
     margin-bottom: 20px;
 }
+.future-box{
+    width: 510px;
+    /* height: 325px; */
+    border-radius: 15px;
+    padding: 30px;
+}
+.btn{
+    padding:10px 15px ;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 30px;
 
+}
 
  /* nav style start here */
 .nav-container{
@@ -50,6 +63,7 @@
     color: green;
     border: 1px solid green;
 }
+
 
 /* nav style end here */
 
@@ -118,8 +132,45 @@
     margin-top: 50px;
    
 }
-.box1{
-   
-   
-}
+
 /* pillars of bangladesh style end here */
+
+/* future section style start here */
+.future{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 70px;
+}
+.section-description{
+    font-size: 16px;
+    color: #0e0e0e7e;
+    margin-top: 20px;
+}
+.future-box-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.future-box-container .box-1{
+    background-color:#548ff54b ;
+
+}
+.future-box-container .box-2{
+    background-color:#c6e4d6a2 ;
+}
+.future-box-container .box-3{
+    background-color: #f7ebcfbe;
+}
+.btn-color-1{
+    background-color: #548ff5bb;
+}
+.btn-color-2{
+    background-color:#09A15C ;
+}
+.btn-color-3{
+    background-color:#FFC239 ;
+}
+.btn:hover{
+    background-color: blue;
+}
+/* future section style end here */
