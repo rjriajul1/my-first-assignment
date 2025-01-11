@@ -45,6 +45,13 @@
     margin-top: 30px;
 
 }
+.donate-box-container .box{
+    background-color: rgba(245, 240, 240, 0.582);
+    padding: 20px 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: #0e0e0edc;
+}
 
  /* nav style start here */
 .nav-container{
@@ -169,7 +176,7 @@
     background-color: #f7ebcfbe;
 }
 .btn-color-1{
-    background-color: #548ff5bb;
+    background-color: #397cf1fb;
 }
 .btn-color-2{
     background-color:#09A15C ;
@@ -244,6 +251,7 @@ table ,td,th,tr{
     gap: 20px;
     /* height: 402px; */
    
+   
 }
 .content-title{
     font-size: 32px ;
@@ -276,3 +284,56 @@ table ,td,th,tr{
 
 
 /* recent new style section end here */
+
+
+/* donate section start here */
+
+.donate{
+    width: 70%;
+    text-align: center;
+    margin:  0 auto;
+    padding: 20px;
+    margin-top: 40px;
+   
+}
+.donate-box-container{
+    display: flex;
+   gap: 20px;
+   /* width: 100%; */
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.donate-box-container .box-2{
+    background-color: #09a15d67;
+}
+.dnt-desc{
+    margin-top:20px ;
+}
+.donate-form input{
+    margin-top: 20px;
+    background-color:#f7f4f4d2;
+    border: none;
+    border-radius: 5px;
+    
+    
+    
+   
+}
+input{
+    width: 96%;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.box1:hover{
+    background-color: rgba(0, 0, 255, 0.705);
+}
+.box3:hover{
+    background-color: rgba(0, 0, 255, 0.705);
+}
+.box4:hover{
+    background-color: rgba(0, 0, 255, 0.705);
+}
+/* donate section end here */
