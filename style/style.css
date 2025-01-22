@@ -401,6 +401,10 @@ span{
 .news-form{
    margin-bottom: 20px;
 }
+#box-description{
+    color: #0e0e0e8e;
+    margin: 20px 0;
+}
 /* .news-letter-form{
     display: flex;
     flex-direction: row;
@@ -610,6 +614,7 @@ span{
 .box-description br{
     display: none;
 }
+
    /* news letter section end here */
 
    .box-description{
