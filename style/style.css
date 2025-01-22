@@ -453,6 +453,7 @@ span{
     
 }
 
+
 .banner-btn:hover{
     background-color: rgba(0, 255, 64, 0.788);
 
@@ -462,7 +463,7 @@ span{
     
 }
    /* banner section end here */
-   
+
 
    /* pillars section start here */
 
@@ -475,9 +476,24 @@ span{
 }
 .pillars {
     width: 90%;
-    
+   
 }
    /* pillars section end here */
+
+   /* future section start here */
+
+   .future-box-container{
+    flex-direction: column;
+    width: 100%;
+   }
+
+   .future{
+    width: 90%;
+  
+}
+
+
+   /* future section end here */
 
     
 }
