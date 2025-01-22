@@ -416,6 +416,7 @@ span{
 @media screen and (max-width:576px) {
 
 
+    
     /* nav section start here */
 
     .nav-container{
@@ -611,8 +612,18 @@ span{
 }
    /* news letter section end here */
 
-    
+   .box-description{
+    font-size: 1rem;
+    padding: 0px;
+    text-align: left;
+    color: #0e0e0e75;
+    margin-bottom: 20px;
+
 }
+   
+}
+    
+
 
 
 
