@@ -255,6 +255,18 @@ table ,td,th,tr{
    
    
 }
+.recent-container2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f7f4f4;
+    padding: 40px ;
+    margin-top: 20px;
+    border-radius: 15px;
+    gap: 20px;
+    /* height: 402px; */
+   
+   
+}
 .content-title{
     font-size: 2rem ;
     font-weight: bold;
@@ -491,9 +503,71 @@ span{
     width: 90%;
   
 }
-
-
    /* future section end here */
+
+
+   /* challengs section start here */
+
+   .challenges{
+   
+    background-image: none;
+    width: 90%;
+}
+
+.challenges-text{
+   line-height: 25px;
+    padding: 20px;
+}
+
+   /* challengs section end here */
+
+
+   /* recent news section start here */
+
+   .recent-container{
+    flex-direction: column;
+    padding: 0;
+   
+   }
+   .recent-container2{
+    flex-direction: column-reverse;
+    padding: 0;
+   }
+
+   .recent{
+    width:90% ;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.recent-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+.content-title{
+    font-size: 1.5rem ;
+   
+}
+
+.recent-content{
+    margin: 10px;
+}
+
+
+.news-img{
+    margin-bottom: 0px;
+}
+.news-desc {
+    margin-top: 15px;
+   line-height: 20px;
+}
+
+
+
+   /* recent news section end here */
 
     
 }
