@@ -4,35 +4,37 @@
     box-sizing: border-box;
     
 }
-
-
+.display-hide{
+    display: none;
+}
+ 
 /* shared style */
 .box{
     background-color: #f7f4f4;
-    width: 402px;
+    max-width: 402px;
     border-radius: 15px;
     padding: 30px;
     /* height: 300px; */
 
 }
 .box-img{
-    width: 64px;
+    max-width: 64px;
     margin-bottom: 30px;
 }
 .box-title{
-    font: 20px;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #0e0e0eab;
     margin-bottom: 20px;
 
 }
 .box-description{
-    font-size: 16px;
+    font-size: 1rem;
     color: #0e0e0e75;
     margin-bottom: 20px;
 }
 .future-box{
-    width: 510px;
+    max-width: 510px;
     /* height: 325px; */
     border-radius: 15px;
     padding: 30px;
@@ -48,7 +50,7 @@
 .donate-box-container .box{
     background-color: rgba(245, 240, 240, 0.582);
     padding: 20px 10px;
-    font-size: 30px;
+    font-size: 1.9rem;
     border-radius: 10px;
     color: #0e0e0edc;
 }
@@ -60,7 +62,7 @@
     padding: 30px 100px;
 }
 .text{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
     /* color:#0E0E0E ; */
     
@@ -80,7 +82,7 @@
 /* banner section start here */
 .banner{
     width: 80%;
-    height: 500px;
+    max-height: 500px;
     background-color: #C6E4D6;
     margin: 0 auto;
     border-radius: 10px;
@@ -93,12 +95,12 @@
    
 }
 .hazy-title{
-    font-size: 24px;
+    font-size: 1.5rem;
     color:#0e0e0e75 ;
     margin-bottom: 15px;
 }
 .banner-title{
-    font-size: 56px;
+    font-size: 3.4rem;
     font-weight: bold;
     color: #0E0E0E;
     margin-bottom: 25px;
@@ -116,7 +118,7 @@
 
 }
 .banner-img{
-    width: 470px;
+    max-width: 470px;
     margin-top: 40px;
 }
 
@@ -137,7 +139,7 @@
 
 }
 .section-title{
-    font-size: 40px;
+    font-size: 2.6rem;
     font-weight: bold;
 
 }
@@ -156,7 +158,7 @@
     margin-top: 70px;
 }
 .section-description{
-    font-size: 16px;
+    font-size: 1rem;
     color: #0e0e0e7e;
     margin-top: 20px;
 }
@@ -254,12 +256,12 @@ table ,td,th,tr{
    
 }
 .content-title{
-    font-size: 32px ;
+    font-size: 2rem ;
     font-weight: bold;
     color: #0e0e0ebb;
 }
 .recent-img img{
-    width: 408;
+    max-width: 408;
     border-radius: 29px;
    
 }
@@ -270,7 +272,7 @@ table ,td,th,tr{
     margin-bottom: 10px;
 }
 .publish{
-    font-size: 16px;
+    font-size: 1rem;
     color: #0e0e0e94;
     
 }
@@ -398,3 +400,92 @@ span{
 } */
 
 /* news letter section style end here */
+
+
+
+
+/* small device  responsive design start here */
+
+@media screen and (max-width:576px) {
+
+
+    /* nav section start here */
+
+    .nav-container{
+       
+        padding: 10px ;
+    }
+    .text{
+        font-size: 1.5rem;
+        
+        
+    }
+    .nav-btn button{
+        padding: 8px 10px;
+    }
+    .nav-btn:hover{
+        background-color:rgba(0, 255, 106, 0.795);
+   }
+   /* nav section end here */
+
+
+   /* banner section start here */
+
+   .banner-container{
+    flex-direction: column-reverse;
+   }
+   
+
+.banner-text{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+ .banner{
+    width: 100%;
+    border-radius: 0;
+}
+
+.banner-title{
+    font-size: 1.7rem;
+    
+}
+
+.banner-btn:hover{
+    background-color: rgba(0, 255, 64, 0.788);
+
+}
+.banner-img img{
+    max-width:300px;
+    
+}
+   /* banner section end here */
+   
+
+   /* pillars section start here */
+
+   .pillars-box-container{
+    flex-direction: column;
+   
+   }
+   .section-title{
+    font-size: 1.6rem;
+}
+.pillars {
+    width: 90%;
+    
+}
+   /* pillars section end here */
+
+    
+}
+
+
+
+
+
+
+
+/* small dvice responsive design end here */
